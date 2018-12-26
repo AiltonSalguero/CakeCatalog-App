@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class ActionButton extends StatefulWidget {
   final IconData icon;
   final Color color;
-  final String timesClicked;
+  final int timesClicked;
 
   ActionButton(this.icon, this.color, this.timesClicked);
 
@@ -14,7 +14,7 @@ class ActionButton extends StatefulWidget {
 class _ActionButtonState extends State<ActionButton> {
   IconData icon;
   Color color;
-  String timesClicked;
+  int timesClicked;
 
   _ActionButtonState(this.icon, this.color, this.timesClicked);  
   
@@ -39,7 +39,7 @@ class _ActionButtonState extends State<ActionButton> {
 
             //Numero de veces clickeado
             Text(
-              widget.timesClicked,
+              widget.timesClicked.toString(),
               style: TextStyle(
                   color: Colors.white,
                   fontFamily: 'Quicksand',
