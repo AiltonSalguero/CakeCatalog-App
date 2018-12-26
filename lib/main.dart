@@ -38,7 +38,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
         //TITULO
         title: Text(
-          'Fine quiality',
+          'Postres',
           style: TextStyle(color: Colors.black),
         ),
         centerTitle: true,
@@ -93,7 +93,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                 children: <Widget>[
                                   //Nombre del postre
                                   Text(
-                                    'Honey Bread',
+                                    'Pansito',
                                     style: TextStyle(
                                         color: Colors.white,
                                         fontFamily: 'Quicksand',
@@ -141,7 +141,7 @@ class _MyHomePageState extends State<MyHomePage> {
               Padding(
                 padding: const EdgeInsets.only(left: 17.0),
                 child: Text(
-                  'Commodity',
+                  'Mas postres',
                   style: TextStyle(
                       fontFamily: 'Quicksand',
                       fontSize: 20.0,

@@ -41,7 +41,7 @@ class _ActionButtonState extends State<ActionButton> {
             Text(
               widget.timesClicked.toString(),
               style: TextStyle(
-                  color: Colors.white,
+                  color: Colors.grey,
                   fontFamily: 'Quicksand',
                   fontSize: 15.0,
                   fontWeight: FontWeight.bold),
