@@ -163,7 +163,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 shrinkWrap: true,
                 children: <Widget>[
                   FoodCard('Raspberry', 'Italy', 'assets/img1.jpg', 64, 22, 1),
-                  FoodCard('Raspberry', 'Italy', 'assets/img2.jpg', 64, 22, 2),
+                  FoodCard('Mousse', 'China', 'assets/img2.jpg', 64, 22, 2),
                   FoodCard('Raspberry', 'Italy', 'assets/img3.jpg', 64, 22, 3),
                   FoodCard('Raspberry', 'Italy', 'assets/img5.jpg', 64, 22, 4),
                   FoodCard('Raspberry', 'Italy', 'assets/img6.jpg', 64, 22, 5),
